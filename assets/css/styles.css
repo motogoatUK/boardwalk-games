@@ -63,3 +63,33 @@ h2 {
   border: 2px solid white;
   background-color: lightgray;
 } */
+ /* Media queries */
+
+ /* Medium devices (tablets, 768px and up) */
+ @media screen and (min-width: 768px) {
+    /* give all service cards the same height for consistency */
+    #services .card-body {
+        min-height:191px;
+    }
+ }
+ /* Large devices (small laptops, 992px and up) */
+ @media screen and (min-width: 992px) {
+    /* give all service cards the same height for consistency */
+    #services .card-body {
+        min-height:auto;
+    }
+ }
+ /* XLarge devices (laptops & desktops, 1200px and up) */
+ @media screen and (min-width: 1200px) {
+    /* give all service cards the same height for consistency */
+    #services .card-body {
+        min-height:220px;
+    }
+ }
+ /* XXLarge devices (widescreens, 1400px and up) */
+ @media screen and (min-width: 1400px) {
+    /* give all service cards the same height for consistency */
+    #services .card-body {
+        min-height:195px;
+    }
+ }
