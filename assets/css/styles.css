@@ -50,6 +50,13 @@ h2 {
 #services .card {
     margin-bottom: 1.5rem;
 }
+/* Games section */
+#new-games h2,#fav-games h2 {
+    text-align: center;
+}
+#new-games .card, #fav-games .card {
+    border:none;
+}
 /* Class styles */
 .sub-heading-color {
   color: var(--highlight-color);
