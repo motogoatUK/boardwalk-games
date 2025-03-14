@@ -31,6 +31,13 @@ h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.highlight {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
 
 /* Buttons */
 .custom-button-filled {
@@ -74,6 +81,7 @@ h2 {
 #services .card {
   margin-bottom: 1.5rem;
 }
+
 /* Games section */
 #new-games h2,
 #fav-games h2 {
