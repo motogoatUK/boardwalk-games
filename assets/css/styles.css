@@ -84,6 +84,9 @@ h2 {
 #contact .social-links i:hover {
  color: var(--secondary-color);
 }
+#contact .table-dark * {
+    background-color: transparent;
+}
 
 /* Class styles */
 .sub-heading-color {
